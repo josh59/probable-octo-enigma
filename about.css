@@ -2,7 +2,9 @@ ul{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    height:30px;
+    padding-left: 0px;
 
 }
 .rowImages{
@@ -20,6 +22,7 @@ ul{
     flex-direction: column;
     text-align: center;
     /*border: 1px solid black;*/
+    margin:50px;
 }
 .columnImages{
     display: flex;
@@ -27,7 +30,7 @@ ul{
     flex-direction: column;
     justify-content: space-between;
     border: 1px solid black;
-    height: 275px;
+    height: auto;
     margin:30px;
     padding:30px;
 
@@ -42,4 +45,8 @@ button{
     display:inline;
     width: 100%;
     height: 100%;
+
+}
+li{
+    width:100%;
 }
